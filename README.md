@@ -42,7 +42,10 @@ After running the playbook and all the tasks were completed/successful, we visit
 
 Once we made sure the lab was finished we deleted the ssh key and removed the resources created by terraform using the 2 commands below:
 ```bash
+# In the terraform directory
 terraform destroy
+
+# In the scripts directory
 ./delete_lab_key
 ```
 
